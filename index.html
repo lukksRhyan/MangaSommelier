@@ -4,8 +4,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sommelier de Mangás - Mural de Ofertas</title>
+        <title>Mundo Mangá Promos - Mural de Ofertas</title>
         <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
             
@@ -15,7 +16,7 @@
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             }
             
-            .font-vintage { font-family: 'Special+Elite', cursive; }
+            .font-vintage { font-family: 'Special Elite', cursive; }
             
             .paper-texture {
                 background-color: #fffcf5;
@@ -37,464 +38,372 @@
             .card-manga:hover {
                 transform: translateY(-5px);
             }
+
+            .social-bar {
+                background: rgba(87, 49, 10, 0.9);
+                backdrop-filter: blur(5px);
+            }
         </style>
     </head>
     <body class="pb-12">
+        <nav class="social-bar sticky top-0 z-50 py-3 px-6 text-white flex justify-center gap-8 shadow-md">
+            <a href="https://www.tiktok.com/@manga_gourmetbr" target="_blank" class="hover:text-[#f3e5d8] transition-colors flex items-center gap-2">
+                <i class="fab fa-tiktok"></i> <span class="hidden sm:inline font-bold">TikTok</span>
+            </a>
+            <a href="https://www.instagram.com/manga_gourmetbr/" target="_blank" class="hover:text-[#f3e5d8] transition-colors flex items-center gap-2">
+                <i class="fab fa-instagram"></i> <span class="hidden sm:inline font-bold">Instagram</span>
+            </a>
+            <a href="https://www.youtube.com/@MangaGourmet" target="_blank" class="hover:text-[#f3e5d8] transition-colors flex items-center gap-2">
+                <i class="fab fa-youtube"></i> <span class="hidden sm:inline font-bold">YouTube</span>
+            </a>
+        </nav>
 
-        <header class="ripped-edge pt-12 pb-16 px-6 text-center shadow-2xl mb-10">
-            <nav class="social-bar sticky top-0 z-50 py-3 px-6 text-white flex justify-center gap-8">
-                <a href="https://www.tiktok.com/@manga_gourmetbr" target="_blank" class="hover:text-[#f3e5d8] transition-colors flex items-center gap-2">
-                    <i class="fab fa-tiktok"></i> <span class="hidden sm:inline font-bold">TikTok</span>
-                </a>
-                <a href="https://www.instagram.com/manga_gourmetbr/" target="_blank" class="hover:text-[#f3e5d8] transition-colors flex items-center gap-2">
-                    <i class="fab fa-instagram"></i> <span class="hidden sm:inline font-bold">Instagram</span>
-                </a>
-                <a href="https://www.youtube.com/@MangaGourmet" target="_blank" class="hover:text-[#f3e5d8] transition-colors flex items-center gap-2">
-                    <i class="fab fa-youtube"></i> <span class="hidden sm:inline font-bold">YouTube</span>
-                </a>
-            </nav>
-            <h1 class="text-4xl md:text-6xl font-black uppercase tracking-tighter">Sommelier de Mangás</h1>
+        <header class="ripped-edge pt-12 pb-24 px-6 text-center shadow-2xl mb-10">
+            <h1 class="text-4xl md:text-6xl font-black uppercase tracking-tighter">Mundo Mangá</h1>
             <p class="text-lg opacity-90 mt-2 font-vintage">Promoções Atualizadas do Dia</p>
-            
         </header>
 
         <main class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/71buVU4N-xL._SY425_.jpg" alt="Angustia" class="max-h-full object-contain">
+                    <img src="None" alt="Cupom Amazon" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Angustia</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$24,70 (55%)</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Cupom Amazon</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$30 off acima de R$299</p>
                     </div>
-                    <a href="https://amzn.to/4lVLFDs" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/4v2B2Ty" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/71PPzaYWzhL._SY466_.jpg" alt="Haikyu! Vol. 03 - Big" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/61LKLjoelZL._SY466_.jpg" alt="Ataque dos Titãs (2 em 1) Vol. 04" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Haikyu! Vol. 03 - Big</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$30,41 (52%)</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Ataque dos Titãs (2 em 1) Vol. 04</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$34,95 (50%)</p>
                     </div>
-                    <a href="https://amzn.to/4rW4qaY" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/4dh7tXW" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/61VpCKAkclL._SY425_.jpg" alt="Solo Leveling 12 (pré-venda)" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/71h1KJyKOCL._SY466_.jpg" alt="📕 HQ EM PRÉ-VENDA" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Solo Leveling 12 (pré-venda)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$78,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">📕 HQ EM PRÉ-VENDA</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$19,90</p>
                     </div>
-                    <a href="https://amzn.to/3O4l1LZ" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/3O8EjQm" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/71plrYtEfGL._SY425_.jpg" alt="Hanako-Kun e os mistérios do colégio kamome 25 (pré-venda)" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/81ynSi4euCL._SY425_.jpg" alt="📕 HQ COM DESCONTO" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Hanako-Kun e os mistérios do colégio kamome 25 (pré-venda)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$44,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">📕 HQ COM DESCONTO</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$41,96 (60%)</p>
                     </div>
-                    <a href="https://amzn.to/4bQnOAn" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/4lZAERu" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/712MKxwcnOL._SY466_.jpg" alt="Blue Lock Vol. 35 (pré-venda)" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/61T5wd7oBVL._SY466_.jpg" alt="Yona - A Princesa do Alvorecer - BIG - Vol. 01" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Blue Lock Vol. 35 (pré-venda)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$46,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Yona - A Princesa do Alvorecer - BIG - Vol. 01</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$26,15 (52%)</p>
                     </div>
-                    <a href="https://amzn.to/4lUKG6s" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/71E0YbI6duL._SY466_.jpg" alt="Billy Bat 08 (pré-venda)" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/71iEsxQiQML._SY425_.jpg" alt="Astro Boy BIG Vol. 03" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Billy Bat 08 (pré-venda)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$95,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Astro Boy BIG Vol. 03</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$47,20 (55%) no pix</p>
                     </div>
-                    <a href="https://amzn.to/4mdL7cl" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/4uW1yO3" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/71iEYsLVEIL._SY466_.jpg" alt="Choujin X 13 (pré-venda)" class="max-h-full object-contain">
+                    <img src="None" alt="Cupom Amazon" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Choujin X 13 (pré-venda)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$46,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Cupom Amazon</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">10% off em compras a partir de R$150 (limitado a R$150)</p>
                     </div>
-                    <a href="https://amzn.to/4d97JrT" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/414MUqe" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/718ut9vCkXL._SY466_.jpg" alt="Como acabei num encontro só de garotos 10 (pré-venda)" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/61CwMMQE4JL._SY342_.jpg" alt="Chainsaw man Vol. 14" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Como acabei num encontro só de garotos 10 (pré-venda)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$46,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Chainsaw man Vol. 14</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$27,25 (37%)</p>
                     </div>
-                    <a href="https://amzn.to/41Atg5u" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/4teJ4GT" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/71N7xYZMqhL._SY466_.jpg" alt="Honey Lemon Soda 11 (pré-venda)" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/619gqL+t5RL._SY425_.jpg" alt="Os Dias Comuns de Yano-Kun - Volume 01" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Honey Lemon Soda 11 (pré-venda)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$46,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Os Dias Comuns de Yano-Kun - Volume 01</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$29,29 (26%)</p>
                     </div>
-                    <a href="https://amzn.to/4bRXCp4" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/4lU2Jtk" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/715MplhqRiL._SY466_.jpg" alt="Jojo's bizarre adventure - parte 7 - steel ball run 13 (pré-venda)" class="max-h-full object-contain">
+                    <img src="None" alt="Cupom Amazon" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Jojo's bizarre adventure - parte 7 - steel ball run 13 (pré-venda)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$57,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Cupom Amazon</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$100  off acima de R$999</p>
                     </div>
-                    <a href="https://amzn.to/3O46D6s" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/81iA990SHeL._SY466_.jpg" alt="O guarda-costas de haneko akabane 12" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/61GcnZ+MWTL._SY466_.jpg" alt="Shaman King Big Vol. 01" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">O guarda-costas de haneko akabane 12</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$47,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Shaman King Big Vol. 01</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$31,45 (55%)</p>
                     </div>
-                    <a href="https://amzn.to/3PrdbN1" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/4dQHdnf" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/71lkwPXK9HL._SY466_.jpg" alt="X 10" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/71OjNOpNqHL._SY425_.jpg" alt="Neon Genesis Evangelion Collector's Edition Vol. 07" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">X 10</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$49,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Neon Genesis Evangelion Collector's Edition Vol. 07</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$38,07 (52%)</p>
                     </div>
-                    <a href="https://amzn.to/4lX0NR5" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/4lXcpU1" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/71-mfWc+XzL._SY466_.jpg" alt="Vistoria: wand & sword Vol. 06 (pré-venda)" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/61Qs1CmdGNL._SY425_.jpg" alt="Astro Boy BIG Vol. 01" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Vistoria: wand & sword Vol. 06 (pré-venda)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$46,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Astro Boy BIG Vol. 01</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$47,20 (55%) no pix</p>
                     </div>
-                    <a href="https://amzn.to/4lR0uXE" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/4dKiJMw" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/71M0HlrAWrL._SY466_.jpg" alt="Wild Strawberry 05 (pré-venda)" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/81HpeSpReJL._SY466_.jpg" alt="Boruto: Naruto Next Generations Vol. 1" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Wild Strawberry 05 (pré-venda)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$44,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Boruto: Naruto Next Generations Vol. 1</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$24,26 (44%)</p>
                     </div>
-                    <a href="https://amzn.to/4t3L30S" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/4v3cD0a" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/61PLIZGKEGL._SY466_.jpg" alt="Tokyo Babylon 06 (pré-venda)" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/71C6Aa+y9jL._SY466_.jpg" alt="One piece vol. 106" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Tokyo Babylon 06 (pré-venda)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$49,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">One piece vol. 106</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$22,64 (45%)</p>
                     </div>
-                    <a href="https://amzn.to/41tqkHV" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/41yX2rq" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/81xHMcG7TCL._SY466_.jpg" alt="Shangri-la frontier vol. 24 (pré-venda)" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/51f7qntqHJL._SY425_.jpg" alt="Tokyo Babylon 01" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Shangri-la frontier vol. 24 (pré-venda)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$46,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Tokyo Babylon 01</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$21,37 (57%) no pix</p>
                     </div>
-                    <a href="https://amzn.to/3PJfAm7" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/47od0rW" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/71rhyeOPYHL._SY466_.jpg" alt="Sakamoto Days 20 (pré-venda)" class="max-h-full object-contain">
+                    <img src="None" alt="Cupom Amazon" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Sakamoto Days 20 (pré-venda)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$43,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Cupom Amazon</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$50  off acima de R$499</p>
                     </div>
-                    <a href="https://amzn.to/4s8jIda" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/4v3cERM" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/71DndYmGkbL._SY425_.jpg" alt="Pokémon x & y 05 (pré-venda)" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/61CQc8E5AAL._SY466_.jpg" alt="Death Note Short Stories" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Pokémon x & y 05 (pré-venda)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$43,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Death Note Short Stories</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$19,76 (54%)</p>
                     </div>
-                    <a href="https://amzn.to/4t8RJL3" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/4uYqBjM" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/71VqSaFx5HL._SY466_.jpg" alt="Tamon's b-side 01 (pré-venda)" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/91+9dLuElKL._SY425_.jpg" alt="Vagabond Vol. 1" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Tamon's b-side 01 (pré-venda)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$41,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Vagabond Vol. 1</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$23,15 (51%)</p>
                     </div>
-                    <a href="https://amzn.to/40X8k8O" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/47q8YiO" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/71U0jDkl20L._SY466_.jpg" alt="Re: zero capítulo 4: o santuário e a bruxa da ganância vol. 12 (pré-venda)" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/71flkFg57HL._SY425_.jpg" alt="Contos Macabros de Kanako Inuki" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Re: zero capítulo 4: o santuário e a bruxa da ganância vol. 12 (pré-venda)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$44,90</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Contos Macabros de Kanako Inuki</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$29,95 (50%)</p>
                     </div>
-                    <a href="https://amzn.to/4rWzG9Q" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/4tgrYIR" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
             <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
                 <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/51EQ5jMPsHL._SY425_.jpg" alt="📕 MENOS DA METADE DO PREÇO" class="max-h-full object-contain">
+                    <img src="https://m.media-amazon.com/images/I/61t-HEdUWaL._SY466_.jpg" alt="Haikyu!! Vol. 10 - Big" class="max-h-full object-contain">
                 </div>
                 <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
                     <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">📕 MENOS DA METADE DO PREÇO</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$29,65 (55%)</p>
+                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase font-vintage">Haikyu!! Vol. 10 - Big</h2>
+                        <p class="text-3xl font-black text-[#57310a] mb-4">R$27,93 (56%)</p>
                     </div>
-                    <a href="https://amzn.to/3NsGbDt" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
-                    </a>
-                </div>
-            </div>
-            
-            <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
-                <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/61TteDR1u5L._SY466_.jpg" alt="Jujutsu Kaisen: Batalha de Feiticeiros Vol. 25" class="max-h-full object-contain">
-                </div>
-                <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
-                    <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Jujutsu Kaisen: Batalha de Feiticeiros Vol. 25</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$26,03 (40%)</p>
-                    </div>
-                    <a href="https://amzn.to/4rW4G9W" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
-                    </a>
-                </div>
-            </div>
-            
-            <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
-                <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/61RPTrzt7QL._SY425_.jpg" alt="Fullmetal Alchemist - Especial - Vol. 8" class="max-h-full object-contain">
-                </div>
-                <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
-                    <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Fullmetal Alchemist - Especial - Vol. 8</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$15,00 (49%)</p>
-                    </div>
-                    <a href="https://amzn.to/4s1GbIt" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
-                    </a>
-                </div>
-            </div>
-            
-            <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
-                <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/61kM0C5CFCL._SY342_.jpg" alt="Spy x Family Vol. 7" class="max-h-full object-contain">
-                </div>
-                <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
-                    <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Spy x Family Vol. 7</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$22,45 (50%)</p>
-                    </div>
-                    <a href="https://amzn.to/3PLRuXU" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
-                    </a>
-                </div>
-            </div>
-            
-            <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
-                <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/61+x9kDuQlL._SY466_.jpg" alt="Sense Life - Volume 2 (Edição Regular)" class="max-h-full object-contain">
-                </div>
-                <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
-                    <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Sense Life - Volume 2 (Edição Regular)</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$29,83 (40%)</p>
-                    </div>
-                    <a href="https://amzn.to/481cfFl" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
-                    </a>
-                </div>
-            </div>
-            
-            <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
-                <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/71xLyoYyiqL._SY466_.jpg" alt="Haikyu! Vol. 02 - Big" class="max-h-full object-contain">
-                </div>
-                <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
-                    <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">Haikyu! Vol. 02 - Big</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$28,75 (55%)</p>
-                    </div>
-                    <a href="https://amzn.to/410Oeuf" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
-                    </a>
-                </div>
-            </div>
-            
-            <div class="card-manga paper-texture rounded-lg overflow-hidden shadow-lg flex flex-col">
-                <div class="h-80 bg-white p-4 flex items-center justify-center">
-                    <img src="https://m.media-amazon.com/images/I/71uXD-cTvuL._SY466_.jpg" alt="One-punch man vol. 28" class="max-h-full object-contain">
-                </div>
-                <div class="p-6 flex-grow border-t-2 border-dashed border-[#57310a] flex flex-col justify-between">
-                    <div>
-                        <h2 class="text-xl font-bold leading-tight mb-2 uppercase">One-punch man vol. 28</h2>
-                        <p class="text-3xl font-black text-[#57310a] mb-4">R$19,09 (56%)</p>
-                    </div>
-                    <a href="https://amzn.to/4t4LAzw" target="_blank" 
-                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm">
-                        Resgatar Promoção
+                    <a href="https://amzn.to/4m07T7p" target="_blank" 
+                       class="block w-full py-4 bg-[#57310a] text-white text-center font-bold rounded-full hover:bg-opacity-90 transition-all uppercase tracking-widest text-sm shadow-md">
+                        <i class="fas fa-shopping-cart mr-2"></i> Resgatar Promoção
                     </a>
                 </div>
             </div>
             
         </main>
 
-        <footer class="mt-20 text-center opacity-60 italic">
+        <footer class="mt-20 text-center opacity-60 italic font-vintage">
             <p>@manga_gourmetbr - Links de Associado Amazon</p>
         </footer>
     </body>
