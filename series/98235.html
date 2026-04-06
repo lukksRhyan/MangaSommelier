@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Série - Mundo Mangá Promos</title>
+    <style>
+        :root {
+            --primary: #F28C4A;
+            --bg: #f4f4f9;
+            --text: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            text-align: center;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            max-width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .card h3 {
+            margin: 0 0 15px 0;
+            font-size: 1.1rem;
+            flex-grow: 1;
+        }
+        .btn {
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            width: 100%;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #218838;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📚 Coleção Completa</h1>
+        <p>Complete a sua estante com os melhores preços!</p>
+    </header>
+    
+    <div class="container">
+        <div class="grid">
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/81BHQ2Nr1KL._SY466_.jpg" alt="Volume 1">
+                <h3>Volume 1</h3>
+                <a href="https://amzn.to/3NyBrw8" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71LWUU0JzuL._SY342_.jpg" alt="Volume 2">
+                <h3>Volume 2</h3>
+                <a href="https://amzn.to/4v3pDTm" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61dqo1XDeWL._SY425_.jpg" alt="Volume 3">
+                <h3>Volume 3</h3>
+                <a href="https://amzn.to/4dqFMvT" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61+FQyPJ4YL._SY425_.jpg" alt="Volume 4">
+                <h3>Volume 4</h3>
+                <a href="https://amzn.to/4tehTMp" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61SXNty1WKS._SY342_.jpg" alt="Volume 5">
+                <h3>Volume 5</h3>
+                <a href="https://amzn.to/4dlQNOT" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61o+7ENVxqL._SY425_.jpg" alt="Volume 6">
+                <h3>Volume 6</h3>
+                <a href="https://amzn.to/3PDzW0g" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61L+xOON+mL._SY342_.jpg" alt="Volume 7">
+                <h3>Volume 7</h3>
+                <a href="https://amzn.to/3QbJLCD" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71U4JDqH2JL._SY342_.jpg" alt="Volume 8">
+                <h3>Volume 8</h3>
+                <a href="https://amzn.to/4dTXzeW" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61wxhQEhy0L._SY425_.jpg" alt="Volume 9">
+                <h3>Volume 9</h3>
+                <a href="https://amzn.to/3NBNfOd" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61Y3bTLCaqL._SY425_.jpg" alt="Volume 10">
+                <h3>Volume 10</h3>
+                <a href="https://amzn.to/4s1JrUx" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61iXSO7kQ0L._SY425_.jpg" alt="Volume 11">
+                <h3>Volume 11</h3>
+                <a href="https://amzn.to/4spkUch" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61DyOZERM5L._SY466_.jpg" alt="Volume 12">
+                <h3>Volume 12</h3>
+                <a href="https://amzn.to/4s8cJkl" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61YvTgGSziL._SY342_.jpg" alt="Volume 13">
+                <h3>Volume 13</h3>
+                <a href="https://amzn.to/418V9l9" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61FbAS+UUeL._SY425_.jpg" alt="Volume 14">
+                <h3>Volume 14</h3>
+                <a href="https://amzn.to/4v3qrYo" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61AMBjGWVEL._SY425_.jpg" alt="Volume 15">
+                <h3>Volume 15</h3>
+                <a href="https://amzn.to/4tkchjZ" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61GkdpL3GLL._SY425_.jpg" alt="Volume 16">
+                <h3>Volume 16</h3>
+                <a href="https://amzn.to/4v3Iaic" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/611AGf9j08L._SY425_.jpg" alt="Volume 17">
+                <h3>Volume 17</h3>
+                <a href="https://amzn.to/3PGpO6R" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/51-SOW4jFrL._SY425_.jpg" alt="Volume 18">
+                <h3>Volume 18</h3>
+                <a href="https://amzn.to/4sQM6Sg" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61VcnusUOQL._SY425_.jpg" alt="Volume 19">
+                <h3>Volume 19</h3>
+                <a href="https://amzn.to/47CwKbo" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61Mv6Z4oKmL._SY425_.jpg" alt="Volume 20">
+                <h3>Volume 20</h3>
+                <a href="https://amzn.to/3PHxMwD" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>© Mundo Mangá Promos - Links de Associado Amazon</p>
+    </div>
+</body>
+</html>

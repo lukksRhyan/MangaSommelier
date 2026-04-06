@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Série - Mundo Mangá Promos</title>
+    <style>
+        :root {
+            --primary: #F28C4A;
+            --bg: #f4f4f9;
+            --text: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            text-align: center;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            max-width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .card h3 {
+            margin: 0 0 15px 0;
+            font-size: 1.1rem;
+            flex-grow: 1;
+        }
+        .btn {
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            width: 100%;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #218838;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📚 Coleção Completa</h1>
+        <p>Complete a sua estante com os melhores preços!</p>
+    </header>
+    
+    <div class="container">
+        <div class="grid">
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/613BkZ9s3jL._AC_UL320_.jpg" alt="Volume 1">
+                <h3>Volume 1</h3>
+                <a href="https://amzn.to/3MRqGV2" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61VbIV64VSL._AC_UL320_.jpg" alt="Volume 2">
+                <h3>Volume 2</h3>
+                <a href="https://amzn.to/4u1DbxY" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71U2UKZrGmL._AC_UL320_.jpg" alt="Volume 3">
+                <h3>Volume 3</h3>
+                <a href="https://amzn.to/40zDVNr" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>© Mundo Mangá Promos - Links de Associado Amazon</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Série - Mundo Mangá Promos</title>
+    <style>
+        :root {
+            --primary: #F28C4A;
+            --bg: #f4f4f9;
+            --text: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            text-align: center;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            max-width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .card h3 {
+            margin: 0 0 15px 0;
+            font-size: 1.1rem;
+            flex-grow: 1;
+        }
+        .btn {
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            width: 100%;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #218838;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📚 Coleção Completa</h1>
+        <p>Complete a sua estante com os melhores preços!</p>
+    </header>
+    
+    <div class="container">
+        <div class="grid">
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/91s66otV7wL._SY425_.jpg" alt="Volume 01">
+                <h3>Volume 01</h3>
+                <a href="https://amzn.to/4ccLQWv" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/91cTmPrhL7L._SY425_.jpg" alt="Volume 02">
+                <h3>Volume 02</h3>
+                <a href="https://amzn.to/41fzasY" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/912NMm8SGeL._SY425_.jpg" alt="Volume 03">
+                <h3>Volume 03</h3>
+                <a href="https://amzn.to/4caq5Xk" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/91AusNfUg-L._SY425_.jpg" alt="Volume 04">
+                <h3>Volume 04</h3>
+                <a href="https://amzn.to/3Q75jAp" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/91LHDwh8ntL._SY425_.jpg" alt="Volume 05">
+                <h3>Volume 05</h3>
+                <a href="https://amzn.to/41fZd3c" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/91GSGwMaHkL._SY425_.jpg" alt="Volume 06">
+                <h3>Volume 06</h3>
+                <a href="https://amzn.to/3O5JSPu" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/81g9wFvxmsL._SY425_.jpg" alt="Volume 07">
+                <h3>Volume 07</h3>
+                <a href="https://amzn.to/4tuNvxC" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/812L1SGao+L._SY425_.jpg" alt="Volume 08">
+                <h3>Volume 08</h3>
+                <a href="https://amzn.to/4vbLpnV" target="_blank" class="btn">🛒 Comprar na Amazon</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>© Mundo Mangá Promos - Links de Associado Amazon</p>
+    </div>
+</body>
+</html>
