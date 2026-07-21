@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frieren on Manga Gourmet</title>
+    <link>http://localhost:1313/MangaSommelier/tags/frieren/</link>
+    <description>Recent content from Manga Gourmet</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    
+    <managingEditor>teilonkenway@gmail.com (Sommelier de Mangá)</managingEditor>
+    <webMaster>teilonkenway@gmail.com (Sommelier de Mangá)</webMaster>
+    
+    <copyright>Todos os artigos deste blog estão licenciados sob BY-NC-SA salvo indicação em contrário. Por favor, indique a fonte ao reproduzir!</copyright>
+    
+    <lastBuildDate>Tue, 21 Jul 2026 10:00:00 -0300</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:1313/MangaSommelier/tags/frieren/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Review: Por que Frieren é a melhor fantasia da década?</title>
+      <link>http://localhost:1313/MangaSommelier/post/teste/</link>
+      <pubDate>Tue, 21 Jul 2026 10:00:00 -0300</pubDate>
+      <author>teilonkenway@gmail.com (Sommelier de Mangá)</author>
+      <guid>http://localhost:1313/MangaSommelier/post/teste/</guid>
+      <description>
+        <![CDATA[<h1>Review: Por que Frieren é a melhor fantasia da década?</h1><p>Autor: Sommelier de Mangá(teilonkenway@gmail.com)</p>
+        
+          <p>Aqui começa o seu texto livre. Você pode usar formatação em Markdown, colocar <strong>negrito</strong>, criar listas, e até usar shortcodes para inserir imagens no meio do texto.</p>
+<p>Como o Hugo converte isso automaticamente, você pode escrever o quanto quiser!</p>
+        
+        <hr><p>Publicado em 2026-07-21 em <a href='http://localhost:1313/MangaSommelier/'>Manga Gourmet</a>, última modificação em 2026-07-21</p>]]>
+      </description>
+      
+        <category>Reviews</category>
+      
+    </item>
+    
+  </channel>
+</rss>

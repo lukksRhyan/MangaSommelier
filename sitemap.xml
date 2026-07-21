@@ -2,8 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/MangaSommelier/post/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MangaSommelier/categories/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MangaSommelier/tags/com%C3%A9dia-rom%C3%A2ntica/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MangaSommelier/tags/fantasia/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MangaSommelier/tags/frieren/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MangaSommelier/tags/madan-no-ichi/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/MangaSommelier/</loc>
-    <lastmod>2026-07-16T10:00:00-03:00</lastmod>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MangaSommelier/tags/panini/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MangaSommelier/tags/recomenda%C3%A7%C3%A3o/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MangaSommelier/post/teste/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MangaSommelier/post/primeiro-post/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MangaSommelier/post/review-bokuben/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MangaSommelier/categories/reviews/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MangaSommelier/tags/shonen/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MangaSommelier/tags/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MangaSommelier/tags/we-never-learn/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/MangaSommelier/promocoes/</loc>
     <lastmod>2026-07-16T10:00:00-03:00</lastmod>
@@ -29,16 +74,6 @@
     <loc>http://localhost:1313/MangaSommelier/series/monster/</loc>
     <lastmod>2026-07-15T18:00:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MangaSommelier/posts/primeiro-post/</loc>
-    <lastmod>2026-07-15T12:00:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/MangaSommelier/posts/</loc>
-    <lastmod>2026-07-15T12:00:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/MangaSommelier/categories/</loc>
-  </url><url>
     <loc>http://localhost:1313/MangaSommelier/about/</loc>
-  </url><url>
-    <loc>http://localhost:1313/MangaSommelier/tags/</loc>
   </url>
 </urlset>
