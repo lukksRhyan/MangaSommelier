@@ -2,12 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+<<<<<<< HEAD
     <loc>http://localhost:1313/MangaSommelier/categories/an%C3%A1lises/</loc>
     <lastmod>2026-07-22T10:00:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/MangaSommelier/tags/berserk/</loc>
     <lastmod>2026-07-22T10:00:00-03:00</lastmod>
   </url><url>
+=======
+<<<<<<< HEAD
+    <loc>https://lukksrhyan.github.io/MangaSommelier/post/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/categories/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/tags/com%C3%A9dia-rom%C3%A2ntica/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/tags/fantasia/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/tags/frieren/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/tags/madan-no-ichi/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/tags/panini/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/tags/recomenda%C3%A7%C3%A3o/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/post/teste/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/post/primeiro-post/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/post/review-bokuben/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/categories/reviews/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/tags/shonen/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/tags/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/tags/we-never-learn/</loc>
+    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/promocoes/</loc>
+=======
+>>>>>>> e36136f9bbc0046db001ed563b10af3268c23f71
     <loc>http://localhost:1313/MangaSommelier/post/</loc>
     <lastmod>2026-07-22T10:00:00-03:00</lastmod>
   </url><url>
@@ -72,29 +126,41 @@
     <lastmod>2026-07-21T10:00:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/MangaSommelier/promocoes/</loc>
+>>>>>>> 710900fcecab68bc46fe818c0e80a73c421ffb22
     <lastmod>2026-07-16T10:00:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MangaSommelier/series/akane-banashi/</loc>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/series/akane-banashi/</loc>
     <lastmod>2026-07-15T18:00:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MangaSommelier/series/bokuben/</loc>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/series/bokuben/</loc>
     <lastmod>2026-07-15T18:00:00-03:00</lastmod>
   </url><url>
+<<<<<<< HEAD
+    <loc>https://lukksrhyan.github.io/MangaSommelier/series/</loc>
+=======
     <loc>http://localhost:1313/MangaSommelier/series/</loc>
     <lastmod>2026-07-15T18:00:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/MangaSommelier/series/madan-no-ichi/</loc>
+>>>>>>> 710900fcecab68bc46fe818c0e80a73c421ffb22
     <lastmod>2026-07-15T18:00:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MangaSommelier/series/mao/</loc>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/series/madan-no-ichi/</loc>
     <lastmod>2026-07-15T18:00:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MangaSommelier/series/marriage-toxin/</loc>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/series/mao/</loc>
     <lastmod>2026-07-15T18:00:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MangaSommelier/series/monster/</loc>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/series/marriage-toxin/</loc>
     <lastmod>2026-07-15T18:00:00-03:00</lastmod>
   </url><url>
+<<<<<<< HEAD
+    <loc>https://lukksrhyan.github.io/MangaSommelier/series/monster/</loc>
+    <lastmod>2026-07-15T18:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://lukksrhyan.github.io/MangaSommelier/about/</loc>
+=======
     <loc>http://localhost:1313/MangaSommelier/about/</loc>
+>>>>>>> 710900fcecab68bc46fe818c0e80a73c421ffb22
   </url>
 </urlset>
