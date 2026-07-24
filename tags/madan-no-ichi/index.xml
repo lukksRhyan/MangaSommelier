@@ -2,11 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Madan No Ichi on Manga Gourmet</title>
-<<<<<<< HEAD
-    <link>https://lukksrhyan.github.io/MangaSommelier/tags/madan-no-ichi/</link>
-=======
     <link>http://localhost:1313/MangaSommelier/tags/madan-no-ichi/</link>
->>>>>>> 710900fcecab68bc46fe818c0e80a73c421ffb22
     <description>Recent content from Manga Gourmet</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
@@ -19,11 +15,7 @@
     <lastBuildDate>Tue, 21 Jul 2026 10:00:00 -0300</lastBuildDate>
     
     
-<<<<<<< HEAD
-    <atom:link href="https://lukksrhyan.github.io/MangaSommelier/tags/madan-no-ichi/index.xml" rel="self" type="application/rss&#43;xml" />
-=======
     <atom:link href="http://localhost:1313/MangaSommelier/tags/madan-no-ichi/index.xml" rel="self" type="application/rss&#43;xml" />
->>>>>>> 710900fcecab68bc46fe818c0e80a73c421ffb22
     
 
     
@@ -31,17 +23,10 @@
 
     <item>
       <title>Review: Vale a pena ler Madan no Ichi?</title>
-<<<<<<< HEAD
-      <link>https://lukksrhyan.github.io/MangaSommelier/post/primeiro-post/</link>
-      <pubDate>Tue, 21 Jul 2026 10:00:00 -0300</pubDate>
-      <author>teilonkenway@gmail.com (Sommelier de Mangá)</author>
-      <guid>https://lukksrhyan.github.io/MangaSommelier/post/primeiro-post/</guid>
-=======
       <link>http://localhost:1313/MangaSommelier/post/primeiro-post/</link>
       <pubDate>Tue, 21 Jul 2026 10:00:00 -0300</pubDate>
       <author>teilonkenway@gmail.com (Sommelier de Mangá)</author>
       <guid>http://localhost:1313/MangaSommelier/post/primeiro-post/</guid>
->>>>>>> 710900fcecab68bc46fe818c0e80a73c421ffb22
       <description>
         <![CDATA[<h1>Review: Vale a pena ler Madan no Ichi?</h1><p>Autor: Sommelier de Mangá(teilonkenway@gmail.com)</p>
         
@@ -54,11 +39,7 @@ Pontos Fortes:
 <li>Worldbuilding com grande potencial.</li>
 </ul>
         
-<<<<<<< HEAD
-        <hr><p>Publicado em 2026-07-21 em <a href='https://lukksrhyan.github.io/MangaSommelier/'>Manga Gourmet</a>, última modificação em 2026-07-21</p>]]>
-=======
         <hr><p>Publicado em 2026-07-21 em <a href='http://localhost:1313/MangaSommelier/'>Manga Gourmet</a>, última modificação em 2026-07-21</p>]]>
->>>>>>> 710900fcecab68bc46fe818c0e80a73c421ffb22
       </description>
       
         <category>Reviews</category>

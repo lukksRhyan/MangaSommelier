@@ -2,11 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Catálogo de POSTS on Manga Gourmet</title>
-<<<<<<< HEAD
-    <link>https://lukksrhyan.github.io/MangaSommelier/post/</link>
-=======
     <link>http://localhost:1313/MangaSommelier/post/</link>
->>>>>>> 710900fcecab68bc46fe818c0e80a73c421ffb22
     <description>Recent content from Manga Gourmet</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
@@ -19,11 +15,7 @@
     <lastBuildDate>Tue, 21 Jul 2026 10:00:00 -0300</lastBuildDate>
     
     
-<<<<<<< HEAD
-    <atom:link href="https://lukksrhyan.github.io/MangaSommelier/post/index.xml" rel="self" type="application/rss&#43;xml" />
-=======
     <atom:link href="http://localhost:1313/MangaSommelier/post/index.xml" rel="self" type="application/rss&#43;xml" />
->>>>>>> 710900fcecab68bc46fe818c0e80a73c421ffb22
     
 
     
@@ -31,17 +23,10 @@
 
     <item>
       <title>Review: Vale a pena ler We Never Learn (Bokutachi wa Benkyou ga Dekinai)?</title>
-<<<<<<< HEAD
-      <link>https://lukksrhyan.github.io/MangaSommelier/post/review-bokuben/</link>
-      <pubDate>Tue, 21 Jul 2026 10:00:00 -0300</pubDate>
-      <author>teilonkenway@gmail.com (Sommelier de Mangá)</author>
-      <guid>https://lukksrhyan.github.io/MangaSommelier/post/review-bokuben/</guid>
-=======
       <link>http://localhost:1313/MangaSommelier/post/review-bokuben/</link>
       <pubDate>Tue, 21 Jul 2026 10:00:00 -0300</pubDate>
       <author>teilonkenway@gmail.com (Sommelier de Mangá)</author>
       <guid>http://localhost:1313/MangaSommelier/post/review-bokuben/</guid>
->>>>>>> 710900fcecab68bc46fe818c0e80a73c421ffb22
       <description>
         <![CDATA[<h1>Review: Vale a pena ler We Never Learn (Bokutachi wa Benkyou ga Dekinai)?</h1><p>Autor: Sommelier de Mangá(teilonkenway@gmail.com)</p>
         
@@ -73,11 +58,7 @@
       Nariyuki Yuiga está em seu último — e mais difícil — ano do ensino médio. Para conquistar a tão desejada “recomendação VIP especial”, que lhe garantiria uma bolsa integral para a faculdade, ele precisa agora dar aulas particulares para suas colegas enquanto elas se preparam para os exames de admissão.Entre suas alunas estão a “bela adormecida da floresta literária”, Fumino Furuhashi, e o “supercomputador polegarzinho”, Rizu Ogata — duas das maiores gênias e também das garotas mais bonitas da escola! Mas, apesar de serem consideradas perfeitas academicamente, a verdade é que elas são completamente perdidas fora de suas áreas de especialidade…!? (Fonte: Crunchyroll)
     </p>
         
-<<<<<<< HEAD
-        <hr><p>Publicado em 2026-07-21 em <a href='https://lukksrhyan.github.io/MangaSommelier/'>Manga Gourmet</a>, última modificação em 2026-07-21</p>]]>
-=======
         <hr><p>Publicado em 2026-07-21 em <a href='http://localhost:1313/MangaSommelier/'>Manga Gourmet</a>, última modificação em 2026-07-21</p>]]>
->>>>>>> 710900fcecab68bc46fe818c0e80a73c421ffb22
       </description>
       
         <category>Reviews</category>
@@ -88,17 +69,10 @@
 
     <item>
       <title>Review: Vale a pena ler Madan no Ichi?</title>
-<<<<<<< HEAD
-      <link>https://lukksrhyan.github.io/MangaSommelier/post/primeiro-post/</link>
-      <pubDate>Tue, 21 Jul 2026 10:00:00 -0300</pubDate>
-      <author>teilonkenway@gmail.com (Sommelier de Mangá)</author>
-      <guid>https://lukksrhyan.github.io/MangaSommelier/post/primeiro-post/</guid>
-=======
       <link>http://localhost:1313/MangaSommelier/post/primeiro-post/</link>
       <pubDate>Tue, 21 Jul 2026 10:00:00 -0300</pubDate>
       <author>teilonkenway@gmail.com (Sommelier de Mangá)</author>
       <guid>http://localhost:1313/MangaSommelier/post/primeiro-post/</guid>
->>>>>>> 710900fcecab68bc46fe818c0e80a73c421ffb22
       <description>
         <![CDATA[<h1>Review: Vale a pena ler Madan no Ichi?</h1><p>Autor: Sommelier de Mangá(teilonkenway@gmail.com)</p>
         
@@ -111,11 +85,7 @@ Pontos Fortes:
 <li>Worldbuilding com grande potencial.</li>
 </ul>
         
-<<<<<<< HEAD
-        <hr><p>Publicado em 2026-07-21 em <a href='https://lukksrhyan.github.io/MangaSommelier/'>Manga Gourmet</a>, última modificação em 2026-07-21</p>]]>
-=======
         <hr><p>Publicado em 2026-07-21 em <a href='http://localhost:1313/MangaSommelier/'>Manga Gourmet</a>, última modificação em 2026-07-21</p>]]>
->>>>>>> 710900fcecab68bc46fe818c0e80a73c421ffb22
       </description>
       
         <category>Reviews</category>
@@ -126,28 +96,17 @@ Pontos Fortes:
 
     <item>
       <title>Review: Por que Frieren é a melhor fantasia da década?</title>
-<<<<<<< HEAD
-      <link>https://lukksrhyan.github.io/MangaSommelier/post/teste/</link>
-      <pubDate>Tue, 21 Jul 2026 10:00:00 -0300</pubDate>
-      <author>teilonkenway@gmail.com (Sommelier de Mangá)</author>
-      <guid>https://lukksrhyan.github.io/MangaSommelier/post/teste/</guid>
-=======
       <link>http://localhost:1313/MangaSommelier/post/teste/</link>
       <pubDate>Tue, 21 Jul 2026 10:00:00 -0300</pubDate>
       <author>teilonkenway@gmail.com (Sommelier de Mangá)</author>
       <guid>http://localhost:1313/MangaSommelier/post/teste/</guid>
->>>>>>> 710900fcecab68bc46fe818c0e80a73c421ffb22
       <description>
         <![CDATA[<h1>Review: Por que Frieren é a melhor fantasia da década?</h1><p>Autor: Sommelier de Mangá(teilonkenway@gmail.com)</p>
         
           <p>Aqui começa o seu texto livre. Você pode usar formatação em Markdown, colocar <strong>negrito</strong>, criar listas, e até usar shortcodes para inserir imagens no meio do texto.</p>
 <p>Como o Hugo converte isso automaticamente, você pode escrever o quanto quiser!</p>
         
-<<<<<<< HEAD
-        <hr><p>Publicado em 2026-07-21 em <a href='https://lukksrhyan.github.io/MangaSommelier/'>Manga Gourmet</a>, última modificação em 2026-07-21</p>]]>
-=======
         <hr><p>Publicado em 2026-07-21 em <a href='http://localhost:1313/MangaSommelier/'>Manga Gourmet</a>, última modificação em 2026-07-21</p>]]>
->>>>>>> 710900fcecab68bc46fe818c0e80a73c421ffb22
       </description>
       
         <category>Reviews</category>
