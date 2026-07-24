@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Seinen on Manga Gourmet</title>
-    <link>http://localhost:1313/MangaSommelier/tags/seinen/</link>
+    <title>Análise on Manga Gourmet</title>
+    <link>http://localhost:1313/MangaSommelier/tags/an%C3%A1lise/</link>
     <description>Recent content from Manga Gourmet</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Wed, 22 Jul 2026 10:00:00 -0300</lastBuildDate>
     
     
-    <atom:link href="http://localhost:1313/MangaSommelier/tags/seinen/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:1313/MangaSommelier/tags/an%C3%A1lise/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     

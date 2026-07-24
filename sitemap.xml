@@ -2,34 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-<<<<<<< HEAD
-=======
-    <loc>http://localhost:1313/MangaSommelier/categories/an%C3%A1lises/</loc>
+    <loc>http://localhost:1313/MangaSommelier/tags/an%C3%A1lise/</loc>
     <lastmod>2026-07-22T10:00:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MangaSommelier/tags/berserk/</loc>
-    <lastmod>2026-07-22T10:00:00-03:00</lastmod>
-  </url><url>
->>>>>>> 58a76485c77aca1a2b3a7cff5186492ea4c700b7
     <loc>http://localhost:1313/MangaSommelier/post/</loc>
     <lastmod>2026-07-22T10:00:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/MangaSommelier/categories/</loc>
     <lastmod>2026-07-22T10:00:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MangaSommelier/tags/discuss%C3%A3o/</loc>
+    <loc>http://localhost:1313/MangaSommelier/tags/fantasia-sombria/</loc>
     <lastmod>2026-07-22T10:00:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MangaSommelier/tags/kentaro-miura/</loc>
-    <lastmod>2026-07-22T10:00:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/MangaSommelier/tags/mang%C3%A1/</loc>
+    <loc>http://localhost:1313/MangaSommelier/tags/goblin-slayer/</loc>
     <lastmod>2026-07-22T10:00:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/MangaSommelier/</loc>
     <lastmod>2026-07-22T10:00:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MangaSommelier/post/berserk-final-verdadeiro/</loc>
+    <loc>http://localhost:1313/MangaSommelier/post/goblin-slayer/</loc>
+    <lastmod>2026-07-22T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MangaSommelier/tags/recomenda%C3%A7%C3%A3o/</loc>
+    <lastmod>2026-07-22T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/MangaSommelier/categories/reviews/</loc>
     <lastmod>2026-07-22T10:00:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/MangaSommelier/tags/seinen/</loc>
@@ -53,9 +50,6 @@
     <loc>http://localhost:1313/MangaSommelier/tags/panini/</loc>
     <lastmod>2026-07-21T10:00:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MangaSommelier/tags/recomenda%C3%A7%C3%A3o/</loc>
-    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/MangaSommelier/post/teste/</loc>
     <lastmod>2026-07-21T10:00:00-03:00</lastmod>
   </url><url>
@@ -63,9 +57,6 @@
     <lastmod>2026-07-21T10:00:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/MangaSommelier/post/review-bokuben/</loc>
-    <lastmod>2026-07-21T10:00:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/MangaSommelier/categories/reviews/</loc>
     <lastmod>2026-07-21T10:00:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/MangaSommelier/tags/shonen/</loc>
